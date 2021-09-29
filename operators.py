@@ -25,7 +25,7 @@ def test_register(arg: str) -> str:
     return arg + ' is registred!'
 
 if __name__ == '__main__':
-    NAMES_TEST = ['marcos', 'mariano', 'roberto','jose']
+    NAMES_TEST = ['marcos', 'mariano', 'roberto', 'jose']
 
     for name in NAMES_TEST:
         print(test_register(name))
